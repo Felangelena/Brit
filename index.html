@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <nav role="navigation">
+        <div class="container nav_wrapper">
+            <div class="logo_box">
+                <a href="#">
+                    <img src="img/logo.png" alt="logo" class="logo">
+                </a>
+            </div>
+            <div class="menuToggle">
+                <ul class="menu">
+                    <li class="menu_item"><a href="#about" class="menu_link">o akcji <br>#britmoovie</a></li>
+                    <li class="menu_item"><a href="#form" class="menu_link">zgłoś <br>się</a></li>
+                    <li class="menu_item"><a href="#partners" class="menu_link">patroni</a></li>
+                    <li class="menu_item"><a href="#brit" class="menu_link">co to jest <br>brit</a></li>
+                </ul> 
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <div class="nav_social">
+                    <a href="#" class="nav_social_item">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="nav_social_item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="movie">
+                <iframe src="https://www.youtube.com/embed/rOax50EDIZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h1>Zostań twarzą naszego kanału YouTube!</h1>
+            <a href="#" class="btna">zgłoś się</a>
+        </div>
+    </header>
+
+    <section class="dog_1">
+        <div class="parallax parallax_1"></div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="title">o akcji #britmoovie</h2>
+            <div class="about_box">
+                <div class="about_item">
+                    <h3 class="about_subtitle">dlaczego</h3>
+                    <div class="about_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam labore quas eos commodi cupiditate inventore sunt soluta optio a, magni facere cum perferendis, est quasi quidem consectetur. Facere quaerat accusamus nesciunt alias consequuntur. Impedit modi incidunt tempore, provident natus qui?</div>
+                </div>
+                <div class="about_item">
+                    <h3 class="about_subtitle">jak</h3>
+                    <div class="about_info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo molestiae aliquam, incidunt excepturi, sed iure officia animi deleniti mollitia unde dolore sequi error ex illo aspernatur vero adipisci ipsam quia ab inventore esse reiciendis magni! Commodi explicabo nobis necessitatibus repellendus veritatis illo eaque, repudiandae voluptas vel fuga, ipsum, ratione laboriosam?</div>
+                </div>
+                <div class="about_item">
+                    <h3 class="about_subtitle">dla kogo?</h3>
+                    <div class="about_info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga neque inventore animi corrupti sequi, quia sit rem tempora. Exercitationem, perferendis.</div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btna">zgłoś się</a>
+    </section>
+
+    <section class="dog_2">
+        <div class="parallax parallax_2"></div>
+    </section>
+
+    <section class="form" id="form">
+        <div class="container">
+            <h2 class="title">zgłoś się</h2>
+            <div class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste temporibus, voluptatem laborum ad nam, blanditiis inventore tenetur suscipit tempore enim unde doloremque eaque dolor culpa minus. Perferendis repellendus nemo nobis.</div>
+            <form action="">
+                <div class='form_row'>
+                    <label for="name_surname">imię i nazwisko</label>
+                    <input id="name_surname" type="text" name="name_surname">
+                </div>
+                <div class='form_row'>        
+                    <label for="fullname">pseudonim</label>
+                    <input id="pseudonym" type="text" name="pseudonym">  
+                 </div>
+                <div class='form_row'>
+                    <label for="date">rocznik</label>
+                    <input id="date" type="date" name="date_of_birth">                       
+                </div>       
+                <div class='form_row'>
+                    <label for="email">e-mail</label>
+                    <input id="email" type="email" name="email">
+                </div>
+                <div class='form_row'>
+                    <label for="phone">nr telefonu</label>
+                    <input id="phone" type="tel" name="phone"> 
+                </div>                  
+                <div class='form_row'>
+                    <label for="link">link do filmu</label>
+                    <input id="link" type="url" name="link">
+                </div>                     
+                <div class='form_row'>
+                    <label for="why">Dlaczego ty?<br><span class="text_max">max 300 znaków</span></label>
+                    <textarea id="why" name="why"></textarea>
+                </div>                  
+                <div class='form_row agreements'>
+                    <div>
+                        <label>Zgody</label>
+                    </div>
+                    <div>
+                        <label class="agree">
+                            Akceptuje <a href="#"><b>regulamin</b></a> konkursu
+                            <input class="checkbox" id="contest" value="agree" type="checkbox" name="contest" required>
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="agree">
+                            Akceptuje <a href="#"><b>regulamin</b></a> gromadzenia i przetwarzania danych osobowych
+                            <input class="checkbox" id="store_data" value="agree" type="checkbox" name="store_data" required>
+                            <span class="checkmark"></span>
+                        </label>
+                        </div>
+                    </div>
+                </div>                 
+
+                <button type="submit" class="btn_submit">Wyślij zgłoszenie</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="partners" id="partners">
+        <div class="container">
+            <h2 class="title">patroni medialni</h2>
+            <div class="partners_box">
+                <img src="icons/partner_1.png" alt="partner">
+                <img src="icons/partner_2.png" alt="partner">
+                <img src="icons/partner_3.png" alt="partner">
+                <img src="icons/partner_4.png" alt="partner">
+            </div>
+        </div>
+    </section>
+
+    <section class="brit" id="brit">
+        <div class="container">
+            <h2 class="title">co to jest brit?</h2>
+            <div class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste temporibus, voluptatem laborum ad nam, blanditiis inventore tenetur suscipit tempore enim unde doloremque eaque dolor culpa minus. Perferendis repellendus nemo nobis.</div>
+            <div class="about_box">
+                <div class="about_item">
+                    <h3 class="about_subtitle">dlaczego</h3>
+                    <div class="about_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam labore quas eos commodi cupiditate inventore sunt soluta optio a, magni facere cum perferendis, est quasi quidem consectetur. Facere quaerat accusamus nesciunt alias consequuntur. Impedit modi incidunt tempore, provident natus qui?</div>
+                </div>
+                <div class="about_item">
+                    <h3 class="about_subtitle">jak</h3>
+                    <div class="about_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, corporis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo molestiae aliquam, incidunt excepturi, sed iure officia animi deleniti mollitia unde dolore sequi error ex illo aspernatur vero adipisci ipsam quia ab inventore esse reiciendis magni! Commodi explicabo nobis necessitatibus repellendus veritatis illo eaque, repudiandae voluptas vel fuga, ipsum, ratione laboriosam?</div>
+                </div>
+                <div class="about_item">
+                    <h3 class="about_subtitle">dla kogo?</h3>
+                    <div class="about_info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga neque inventore animi corrupti sequi, quia sit rem tempora. Exercitationem, perferendis.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer_box">
+                <div class="footer_links">
+                    <a href="#" class="footer_link">#britmoovie</a>
+                    <a href="#" class="footer_link">o akcji #britmoovie</a>
+                    <a href="#" class="footer_link">zgłoś się</a>
+                    <a href="#" class="footer_link">patroni</a>
+                    <a href="#" class="footer_link">co to jest brit</a>
+                </div>
+                <div class="footer_contacts">
+                    <a href="#" class="footer_link">faceebook</a>
+                    <a href="#" class="footer_link">instagram</a>
+                    <a href="#" class="footer_link">kontakt</a>
+                </div>
+            </div>
+            <div class="copyright">copyright &#169; 2021 azan sp. z o.o. sp. k.</div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
